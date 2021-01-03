@@ -21,10 +21,11 @@ std::string* init(int* quantity) {
 void encrypt_array(std::string* s, int size) {
 	std::string temp_start;
 	std::string temp_end;
-	bool odd = true;
+	bool odd;
 	for (int i = 0; i < size; i++) {
 		temp_start = "";
 		temp_end = "";
+		odd = true;
 		for (int j = 0; j < s[i].size(); j++) {
 			if (odd) {
 				temp_end = s[i][j] + temp_end;
