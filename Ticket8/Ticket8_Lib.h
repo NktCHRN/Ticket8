@@ -9,5 +9,5 @@ void delete_double(std::string*, int);				//удалить повторяющи�
 int find_letter(std::string*, int, char);			//найти, есть ли буква в матрице
 void sort_array(std::string*, int);					//сортировка массива
 void lower_counter(std::string*, int);				//посчитать кол-во строчных букв
-void get_table(std::string*, int);				//вывести таблицу (6 задание)
+std::string* get_table(std::string*, int, int*);	//получить таблицу (6 задание)
 int unique_letters_counter(std::string*, int);		//подсчитать кол-во уникальных букв
